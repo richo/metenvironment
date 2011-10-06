@@ -6,41 +6,49 @@ Maintainer: Rich Healey <richo@psych0tik.net>
 Package: richo-environment
 Architecture: all
 Depends: richo-system, tmux, zsh, git, subversion
-Description: A metapackage to pull in Richo's environment.
- This package depends upon a base install for richo's system
+Description: Metapackage with dependencies for richo's cli environment
+ This package pulls in all of the dependencies for richo's terminal
+ environment. It does not pull in the environment itself.
 
 Package: richo-multimedia
 Architecture: all
 Depends: richo-environment, mpc, alsa-utils, mpd, vimpc, aumix, vim-nox, vlc
-Description: A metapackage to pull in Richo's multimedia platform
- This package depends upon a base install for richo's system
+Description: Metapackage with dependencies for richo's multimedia environment
+ All the packages required to support richo's media environment, including
+ media keys music playing and movies.
 
 Package: richo-x11
 Architecture: all
 Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer, xinit, xclip, gtk2-engines-murrine, gtk2-engines-pixbuf, xpdf, vim-gtk
-Description: A metapackage to pull in Richo's multimedia platform
- This package depends upon a base install for richo's system
+Description: Metapackage with dependencies for richo's x11 environment
+ This package depends upon everything required by richo's x11 environment.
 
 Package: richo-dev
 Architecture: all
 Depends: richo-environment, exuberant-ctags, debhelper, dupload, git-svn
-Description: A metapackage to pull in Richo's development toolset
- This package depends upon a base install for richo's system
+Description: Metapackage with richo's development tools
+ This package installs the tools needed to develop inside richo's environment.
+ Note that it doesn't include project specific tools such as compilers and
+ libraries, it merely pulls in the tools used to write the software.
 
 Package: richo-apps
 Architecture: all
 Depends: richo-environment, mutt, irssi, links, nmap, aircrack-ng
-Description: A metapackage to pull in Richo's misc apps
- This package depends upon a base install for richo's system
+Description: Metapackage with misc day-to-day applications richo uses.
+ This package depends upon the tools and applications richo uses day to day in
+ an effort to make sure they're already there when I need them.
 
 Package: richo-system
 Architecture: all
 Depends: openssh-server, bzip2, wget, curl, unzip
-Description: A metapackage to pull in Richo's misc apps
- This package depends upon a base install for richo's system
+Description: Metapackage with system utilities.
+ This package is the most general out of the set, depending upon more or less
+ essential system utilities that are not present in a base install of Debian
+ GNU/Linux.
 
 Package: richo-all
 Architecture: all
 Depends: richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia, richo-apps
-Description: A metapackage to pull in Richo's misc apps
- This package depends upon a base install for richo's system
+Description: Metapackage that depends upon all of richo's env packages
+ This package depends on all of the other richo-* packages, to make it simple
+ to pull in all of them, and any future sets that are published.
