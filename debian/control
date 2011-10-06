@@ -17,7 +17,7 @@ Description: A metapackage to pull in Richo's multimedia platform
 
 Package: richo-x11
 Architecture: all
-Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer
+Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer, xrandr, xinit
 Description: A metapackage to pull in Richo's multimedia platform
  This package depends upon a base install for richo's system
 
@@ -29,7 +29,7 @@ Description: A metapackage to pull in Richo's development toolset
 
 Package: richo-apps
 Architecture: all
-Depends: richo-environment, mutt, irssi, links
+Depends: richo-environment, mutt, irssi, links, nmap
 Description: A metapackage to pull in Richo's misc apps
  This package depends upon a base install for richo's system
 
