@@ -11,7 +11,7 @@ Description: A metapackage to pull in Richo's environment.
 
 Package: richo-multimedia
 Architecture: all
-Depends: richo-environment, mpc, alsa-utils, mpd, vimpc, aumix
+Depends: richo-environment, mpc, alsa-utils, mpd, vimpc, aumix, vim-nox
 Description: A metapackage to pull in Richo's multimedia platform
  This package depends upon a base install for richo's system
 
@@ -19,4 +19,10 @@ Package: richo-x11
 Architecture: all
 Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer
 Description: A metapackage to pull in Richo's multimedia platform
+ This package depends upon a base install for richo's system
+
+Package: richo-dev
+Architecture: all
+Depends: richo-environment, exuberant-ctags, debhelper, dupload
+Description: A metapackage to pull in Richo's development toolset
  This package depends upon a base install for richo's system
