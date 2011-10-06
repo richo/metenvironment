@@ -5,36 +5,42 @@ Maintainer: Rich Healey <richo@psych0tik.net>
 
 Package: richo-environment
 Architecture: all
-Depends: tmux, zsh, git, subversion
+Depends: richo-system, tmux, zsh, git, subversion
 Description: A metapackage to pull in Richo's environment.
  This package depends upon a base install for richo's system
 
 Package: richo-multimedia
 Architecture: all
-Depends: richo-environment, mpc, alsa-utils, mpd, vimpc, aumix, vim-nox
+Depends: richo-environment, mpc, alsa-utils, mpd, vimpc, aumix, vim-nox, vlc
 Description: A metapackage to pull in Richo's multimedia platform
  This package depends upon a base install for richo's system
 
 Package: richo-x11
 Architecture: all
-Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer, x11-server-utils, xinit
+Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer, x11-server-utils, xinit, xclip, gtk2-engines-murrine, gtk2-engines-pixbuf, xpdf
 Description: A metapackage to pull in Richo's multimedia platform
  This package depends upon a base install for richo's system
 
 Package: richo-dev
 Architecture: all
-Depends: richo-environment, exuberant-ctags, debhelper, dupload
+Depends: richo-environment, exuberant-ctags, debhelper, dupload, git-svn
 Description: A metapackage to pull in Richo's development toolset
  This package depends upon a base install for richo's system
 
 Package: richo-apps
 Architecture: all
-Depends: richo-environment, mutt, irssi, links, nmap
+Depends: richo-environment, mutt, irssi, links, nmap, aircrack-ng
+Description: A metapackage to pull in Richo's misc apps
+ This package depends upon a base install for richo's system
+
+Package: richo-system
+Architecture: all
+Depends: openssh-server, bzip2, wget, curl
 Description: A metapackage to pull in Richo's misc apps
  This package depends upon a base install for richo's system
 
 Package: richo-all
 Architecture: all
-Depends: richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia
+Depends: richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia, richo-apps
 Description: A metapackage to pull in Richo's misc apps
  This package depends upon a base install for richo's system
