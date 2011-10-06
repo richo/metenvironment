@@ -1,0 +1,22 @@
+Source: richo-environment
+Section: utils
+Priority: optional
+Maintainer: Rich Healey <richo@psych0tik.net>
+
+Package: richo-environment
+Architecture: all
+Depends: tmux, zsh, git, subversion
+Description: A metapackage to pull in Richo's environment.
+ This package depends upon a base install for richo's system
+
+Package: richo-multimedia
+Architecture: all
+Depends: richo-environment, mpc, alsa-utils, mpd, vimpc, aumix
+Description: A metapackage to pull in Richo's multimedia platform
+ This package depends upon a base install for richo's system
+
+Package: richo-x11
+Architecture: all
+Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer
+Description: A metapackage to pull in Richo's multimedia platform
+ This package depends upon a base install for richo's system
