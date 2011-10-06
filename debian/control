@@ -26,3 +26,15 @@ Architecture: all
 Depends: richo-environment, exuberant-ctags, debhelper, dupload
 Description: A metapackage to pull in Richo's development toolset
  This package depends upon a base install for richo's system
+
+Package: richo-apps
+Architecture: all
+Depends: richo-environment, mutt, irssi, links
+Description: A metapackage to pull in Richo's misc apps
+ This package depends upon a base install for richo's system
+
+Package: richo-all
+Architecture: all
+Depends: richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia
+Description: A metapackage to pull in Richo's misc apps
+ This package depends upon a base install for richo's system
