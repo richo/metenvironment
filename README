@@ -1,0 +1,7 @@
+This is a collection of metapackages which pull in the relevant elements
+of my environment for ease of deployment to the debian machines which I
+work on.
+
+At some point I may kludge together some platform independant list of
+packages which generates ebuilds/debs/rpms/whatevers but for now this'll
+do.
