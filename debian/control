@@ -35,7 +35,7 @@ Description: A metapackage to pull in Richo's misc apps
 
 Package: richo-system
 Architecture: all
-Depends: openssh-server, bzip2, wget, curl
+Depends: openssh-server, bzip2, wget, curl, unzip
 Description: A metapackage to pull in Richo's misc apps
  This package depends upon a base install for richo's system
 
