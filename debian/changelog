@@ -1,3 +1,9 @@
+richo-environment (0.09) unstable; urgency=low
+
+  * Notifications!
+
+ -- Rich Healey <richo@psych0tik.net>  Fri, 07 Oct 2011 11:22:28 +1100
+
 richo-environment (0.08) unstable; urgency=low
 
   * Stupidly left out a package
