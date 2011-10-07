@@ -1,3 +1,9 @@
+richo-environment (0.07) unstable; urgency=low
+
+  * Included more packages that I use
+
+ -- Rich Healey <richo@psych0tik.net>  Fri, 07 Oct 2011 11:19:07 +1100
+
 richo-environment (0.06) unstable; urgency=low
 
   * Fixed a broken dep on a virtual package
