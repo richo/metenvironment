@@ -46,6 +46,12 @@ Description: Metapackage with system utilities.
  essential system utilities that are not present in a base install of Debian
  GNU/Linux.
 
+Package: richo-notification
+Architecture: all
+Depends: libnotify-bin, notification-daemon
+Description: A metapackage to pull in richo's notification system
+ This package depends upon a base install for richo's notifications
+
 Package: richo-all
 Architecture: all
 Depends: richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia, richo-apps
