@@ -33,7 +33,7 @@ Description: Metapackage with richo's development tools
 
 Package: richo-apps
 Architecture: all
-Depends: richo-environment, mutt, irssi, links, nmap, aircrack-ng
+Depends: richo-environment, mutt, irssi, links, nmap
 Description: Metapackage with misc day-to-day applications richo uses.
  This package depends upon the tools and applications richo uses day to day in
  an effort to make sure they're already there when I need them.
@@ -48,13 +48,19 @@ Description: Metapackage with system utilities.
 
 Package: richo-notification
 Architecture: all
-Depends: libnotify-bin, notification-daemon
+Depends: richo-environment, libnotify-bin, notification-daemon
 Description: A metapackage to pull in richo's notification system
  This package depends upon a base install for richo's notifications
 
+Package: richo-laptop
+Architecture: all
+Depends: richo-environment, richo-system, wpasupplicant, aircrack-ng
+Description: A metapackage to pull in richo's laptop specific packages
+ This package depends upon a base install for richo's laptop config
+
 Package: richo-all
 Architecture: all
-Depends: richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia, richo-apps
+Depends: richo-system, richo-environment, richo-x11, richo-dev, richo-apps, richo-multimedia, richo-apps
 Description: Metapackage that depends upon all of richo's env packages
  This package depends on all of the other richo-* packages, to make it simple
  to pull in all of them, and any future sets that are published.
