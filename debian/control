@@ -40,7 +40,7 @@ Description: Metapackage with misc day-to-day applications richo uses.
 
 Package: richo-system
 Architecture: all
-Depends: openssh-server, bzip2, wget, curl, unzip
+Depends: openssh-server, bzip2, wget, curl, unzip, iotop, rsync
 Description: Metapackage with system utilities.
  This package is the most general out of the set, depending upon more or less
  essential system utilities that are not present in a base install of Debian
