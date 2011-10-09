@@ -1,0 +1,24 @@
+Package: iceweasel
+Pin: release a=experimental
+Pin-Priority: 1001
+
+Package: libmozjs8d
+Pin: release a=experimental
+Pin-Priority: 1001
+
+Package: xulrunner-8.0
+Pin: release a=experimental
+Pin-Priority: 1001
+
+Package: icedove
+Pin: release a=experimental
+Pin-Priority: 1001
+
+Package: libreoffice*
+Pin: release a=experimental
+Pin-Priority: 1001
+
+Package: xserver-xorg*
+Pin: release a=experimental
+Pin-Priority: 1001
+
