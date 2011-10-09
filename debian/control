@@ -46,6 +46,14 @@ Description: Metapackage with system utilities.
  essential system utilities that are not present in a base install of Debian
  GNU/Linux.
 
+Package: richo-rvm
+Architecture: all
+Depends: richo-environment, build-essential, openssl, libreadline6, libreadline6-dev, curl, git-core, zlib1g, zlib1g-dev, libssl-dev, libyaml-dev, libsqlite3-0, libsqlite3-dev, sqlite3, libxml2-dev, libxslt-dev, autoconf, libc6-dev, ncurses-dev, automake, libtool, bison
+Description: Metapackage with dependencies for RVM
+ Installs all dependencies required for building MRI with rvm (https://github.com/wayneeseguin/rvm)
+ RVM itself installs with
+ bash < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+
 Package: richo-notification
 Architecture: all
 Depends: richo-environment, libnotify-bin, notification-daemon
