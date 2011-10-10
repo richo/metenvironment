@@ -1,3 +1,9 @@
+richo-environment (0.12) unstable; urgency=low
+
+  * Misc updates
+
+ -- Rich Healey <richo@psych0tik.net>  Mon, 10 Oct 2011 15:18:21 +1100
+
 richo-environment (0.11) unstable; urgency=low
 
   * Include feh
