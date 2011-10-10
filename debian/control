@@ -33,7 +33,7 @@ Description: Metapackage with richo's development tools
 
 Package: richo-apps
 Architecture: all
-Depends: richo-environment, mutt, irssi, links, nmap
+Depends: richo-environment, mutt, irssi, links, nmap, lynx
 Description: Metapackage with misc day-to-day applications richo uses.
  This package depends upon the tools and applications richo uses day to day in
  an effort to make sure they're already there when I need them.
