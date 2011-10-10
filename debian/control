@@ -78,3 +78,9 @@ Depends: richo-system, richo-environment, richo-x11, richo-dev, richo-apps, rich
 Description: Metapackage that depends upon all of richo's env packages
  This package depends on all of the other richo-* packages, to make it simple
  to pull in all of them, and any future sets that are published.
+
+Package: phpremoteadmin
+Architecture: all
+Depends: phpmyadmin
+Description: Config hacks to phpmyadmin
+ This hacks at phpmyadmin's config until it can connect via a tunnel to remote machines

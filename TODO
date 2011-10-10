@@ -3,3 +3,5 @@ A config metapackage that pulls in
 o apt sources ( not psych0tik, that would be awful circular )
 o apt preferences
  etc etc etc
+
+finish, and package phpremoteadmin
