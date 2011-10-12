@@ -1,4 +1,10 @@
-richo-environment (0.13) unstable; urgency=low
+richo-environment (0.14) unstable; urgency=low
+
+  * Fix a typo that resulted in an unresolvable dependency
+
+ -- Rich Healey <richo@psych0tik.net>  Wed, 12 Oct 2011 16:15:12 +1100
+
+richo-environment (0.14) unstable; urgency=low
 
   * More X utils
 
