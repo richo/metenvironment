@@ -19,7 +19,7 @@ Description: Metapackage with dependencies for richo's multimedia environment
 
 Package: richo-x11
 Architecture: all
-Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer, xinit, xclip, gtk2-engines-murrine, gtk2-engines-pixbuf, xpdf, vim-gtk, feh
+Depends: richo-environment, openbox, xserver-xorg, rxvt-unicode-256color, gmrun, trayer, xinit, xclip, gtk2-engines-murrine, gtk2-engines-pixbuf, xpdf, vim-gtk, feh, scrot, xcompmgr
 Description: Metapackage with dependencies for richo's x11 environment
  This package depends upon everything required by richo's x11 environment.
 
