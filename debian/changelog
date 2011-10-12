@@ -1,3 +1,9 @@
+richo-environment (0.13) unstable; urgency=low
+
+  * More X utils
+
+ -- Rich Healey <richo@psych0tik.net>  Wed, 12 Oct 2011 15:52:33 +1100
+
 richo-environment (0.12) unstable; urgency=low
 
   * Misc updates
