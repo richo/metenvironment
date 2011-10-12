@@ -62,7 +62,7 @@ Description: A metapackage to pull in richo's notification system
 
 Package: richo-boxdice
 Architecture: all
-Depends: richo-environment, apache2, apache2-mpm-prefork, php5-mysql, php5, php5-xdebug, mysql-client-5.1, mysql-server-5.1
+Depends: richo-environment, apache2, apache2-mpm-prefork, php5-mysql, php5, php5-xdebug, mysql-client-5.1, mysql-server-5.1, xtightvnc
 Description: Metapackage with development deps for working at boxdice
  This package will pull everything that working at BoxDice needs
 
